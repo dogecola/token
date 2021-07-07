@@ -407,7 +407,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract MiniTest is Context, IERC20, Ownable {
+contract DogeCola is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
    
@@ -427,8 +427,8 @@ contract MiniTest is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "MiniTest2";
-    string private _symbol = "MiniTest2";
+    string private _name = "DogeCola";
+    string private _symbol = "DogeCola";
     uint8 private _decimals = 9;
 
     struct AddressFee {
