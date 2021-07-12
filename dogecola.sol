@@ -428,7 +428,7 @@ contract DogeCola is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
    
-    address payable public marketingAddress = payable(0x9a0766AD781C86c0f4c9A766B2B5cb1a51638339); // Marketing Address
+    address payable public marketingAddress = payable(0x6D124947d22f04438566137723e735D6d32BF7Ba); // Marketing Address
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     mapping (address => uint256) private _rOwned;
     mapping (address => uint256) private _tOwned;
