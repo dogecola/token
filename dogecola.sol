@@ -12,7 +12,9 @@
 ;   :  .'      `----'   .'__/\_: ||   :    ||   :    /  `----'  |  ,   /;  :   .'   \ 
 |   ,.'                 |   :    : \   \  /  \   \ .'            ---`-' |  ,     .-./ 
 '---'                    \   \  /   `----'    `---`                      `--`---'     
-                          `--`-'                                                      
+ 
+ The first reflection token and soft drink at the same time. Every buy gives members more with the auto-boost and hyper deflation system in place.
+ 
 */
 
 // SPDX-License-Identifier: Unlicensed
@@ -428,7 +430,7 @@ contract DogeCola is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
    
-    address payable public marketingAddress = payable(0x6D124947d22f04438566137723e735D6d32BF7Ba); // Marketing Address
+    address payable public marketingAddress = payable(0xe39Fdf772B56f5031e70752dcdCeAf05ecd31987); // Marketing Address
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     mapping (address => uint256) private _rOwned;
     mapping (address => uint256) private _tOwned;
@@ -445,7 +447,7 @@ contract DogeCola is Context, IERC20, Ownable {
     uint256 private _tFeeTotal;
 
     string private _name = "DogeCola";
-    string private _symbol = "DogeCola";
+    string private _symbol = "DOGECOLA";
     uint8 private _decimals = 9;
 
     struct AddressFee {
